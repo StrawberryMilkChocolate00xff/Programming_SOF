@@ -15,7 +15,7 @@ stack:
 ->	eip		(&system)			<-((uint*)p)[3]
 ->	ebp
 ->	ecx		(Checking cookie)
-->	10		(int a)				<-(uint*)p = ((uint*)p)[0]
+->	0x00		(int a)				<-(uint*)p = ((uint*)p)[0]
 ->	&a		(void *p)
 ......++++......
 0x00000000
