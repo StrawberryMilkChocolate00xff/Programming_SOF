@@ -10,8 +10,8 @@ stack:
 0xbfffffff
 ......++++......
 ->	-1		(-1)				<-((uint*)p)[6]
-->	ADDRESS	(msg)				<-((uint*)p)[5]
-->	ADDRESS	(&exit)				<-((uint*)p)[4]
+->	ADDRESS	(msg)					<-((uint*)p)[5]
+->	ADDRESS	(&exit)					<-((uint*)p)[4]
 ->	eip		(&system)			<-((uint*)p)[3]
 ->	ebp
 ->	ecx		(Checking cookie)
